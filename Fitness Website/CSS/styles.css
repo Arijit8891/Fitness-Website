@@ -1,0 +1,139 @@
+       /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Layout */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #cbeaee;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* Main Sections */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #0d6efd;
+    text-align: center;
+}
+
+#home{
+    background-color: rgb(246, 204, 204);
+    width: 100%;
+}
+
+
+.home{
+    text-align: center;
+}
+
+#home p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+/* Video Section */
+.video-container {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.video-container video {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+/* About Section */
+#about p {
+    background: white;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Contact Form */
+form {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+}
+
+.button{
+    height: 48px;
+    width: 553px;
+    margin-top: 14px;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20upx;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}

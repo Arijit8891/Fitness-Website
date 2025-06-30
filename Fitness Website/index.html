@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Video Blog</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Arijit's Fitness Video Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="home">
+            <h2>Welcome to My Fitness Blog</h2>
+            <p>Stay fit with the best workout videos and tips with me❤️!</p>
+        </section>
+
+        
+        <section id="videos" class="home">
+            <h2>Free Workout Videos</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Full Body Workout</h3>
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Cardio Blast</h3>
+            </div>
+        </section>
+        
+        <section id="about" class="home">
+            <h2>About Me</h2>
+            <p>Hi, I'm Arijit Das, a fitness enthusiast sharing my journey and workouts. I'm passionate about helping you transform your health and achieve your fitness goals. Through personalized guidance and effective strategies, I'm dedicated to empowering you to live a stronger, healthier life. Let's embark on this journey together!</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit" class="button">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Fitness Video Blog. All rights reserved.</p> 
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
